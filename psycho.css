@@ -1,0 +1,133 @@
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right,rgba(204, 202, 202, 0.904),rgb(255, 255, 255));
+    font-size: larger;
+}
+.s1
+{
+    background-color: rgba(52, 216, 2, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s2{
+    background-color: rgba(10, 117, 150, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s3
+{
+    background-color: rgba(255, 0, 85, 0.767);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s4
+{
+    background-color: rgba(244, 248, 6, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s5
+{
+    background-color: rgba(4, 255, 159, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.sub{
+    
+    background-color: rgba(188, 255, 4, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.s1:hover{
+
+ background-color:rgb(48, 167, 12);
+}
+
+    .s1:active
+    {
+    background-color: rgb(54, 182, 15);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+    
+}
+
+.s2:hover
+{
+    background-color: rgba(15, 83, 104, 0.747);
+   
+}
+.s2:active
+{
+    background-color: rgba(10, 117, 150, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s3:hover
+{
+    background-color: rgb(173, 17, 69);
+    
+}
+.s3:active
+{
+    background-color: rgba(255, 0, 85, 0.767);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s4:hover
+{
+    background-color: rgb(184, 187, 24);
+    
+}
+.s4:active
+{
+    background-color: rgba(244, 248, 6, 0.747);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;
+}
+.s5:hover
+{
+    background-color: rgb(20, 180, 119);
+    
+}
+.s5:active
+{
+    background-color: rgb(34, 190, 130);
+    font-size:large;
+    border: 0px;
+    border-radius: 10px;}
+    .sub
+
+    
+    .sub:hover
+{
+    background-color: rgb(0, 244, 12);
+    
+}
+
+.sub:active
+{
+    background-color: rgb(0, 255, 38);
+    font-size:large;
+    border: 0px;
+    }
+p
+{
+    font-size:x-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(242, 6, 57, 0.847);
+}

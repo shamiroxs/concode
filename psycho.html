@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="psycho.css">
+    <title>psychology test</title>
+    
+<script>
+     var x=0,n=0,z;
+        function incre1(z)
+{   
+ x=x++;  
+   
+}
+
+function incre2(z)
+{   
+ x=x+2;  
+ 
+}
+function incre3(z)
+{   
+ x=x+3;  
+ 
+    
+}
+function incre4(z)
+{   
+ x=x+4;  
+ 
+    
+}
+function incre5(z)
+{   
+ x=x+5;  
+ 
+}
+function result()
+{
+document.getElementById("res").innerHTML="your score is "+x;
+if((x>4)&&(x<=10))
+{
+    document.getElementById("samp").innerHTML="you are fine";
+}
+else if((x>10)&&(x<=15))
+{
+    document.getElementById("samp").innerHTML="good, but can be better";
+}
+else if((x>15)&&(x<=20))
+{
+    document.getElementById("samp").innerHTML="there is a thin line between sane and insane and you are right on the edge";
+}
+else{
+    document.getElementById("samp").innerHTML="you need help";
+}
+}
+
+
+</script>
+
+</head>
+<body>
+    <h1>this a test to check your psychological state</h1><br>
+   
+    In general what do you say about your health? <br><br>
+    <button type="button" class="s1" id="a1" onclick="incre1('a')">excellent</button><br><br>
+    <button type="button" class="s2" id="a2" onclick="incre2('a')">very good</button><br><br>
+    <button type="button" class="s3" id="a3" onclick="incre3('a')">good</button><br><br>
+    <button type="button" class="s4" id="a4" onclick="incre4('a')">fair</button><br><br>
+    <button type="button" class="s5" id="a5" onclick="incre5('a')">poor</button><br>   <br>
+
+    Moderate activities such as moving a table,pushing a vaccum cleaner,or carrying groceries Would you say... <br><br>
+    <button type="button" class="s1" id="b1" onclick="incre1('b')">Yes, limited a lot</button><br><br>
+    <button type="button" class="s2" id="b2" onclick="incre2('b')">Yes, limited a little</button><br><br>
+    <button type="button" class="s3" id="b3" onclick="incre3('b')">No, not limited at all</button><br><br>
+    <button type="button" class="s4" id="b4" onclick="incre4('b')">DONT KNOW</button><br><br>
+    <button type="button" class="s5" id="b5" onclick="incre5('b')">REFUSED</button><br>   <br>
+
+    Climbing several flights of stairs. Would you say<br><br>
+    <button type="button" class="s1" id="c1" onclick="incre1('c')">Yes, limited a lot</button><br><br>
+    <button type="button" class="s2" id="c2" onclick="incre2('c')">Yes, limited a little</button><br><br>
+    <button type="button" class="s3" id="c3" onclick="incre3('c')">No, not limited at all</button><br><br>
+    <button type="button" class="s4" id="c4" onclick="incre4('c')">DONT KNOW</button><br><br>
+    <button type="button" class="s5" id="c5" onclick="incre5('c')">REFUSED</button><br>  <br>
+
+    During the past 4 weeks, how much of the time have you accomplished less than you would like as a result of your physical health…<br><br>
+    <button type="button" class="s1" id="d1" onclick="incre1('d')">All of the time</button><br><br>
+    <button type="button" class="s2" id="d2" onclick="incre2('d')">Most of the time</button><br><br>
+    <button type="button" class="s3" id="d3" onclick="incre3('d')">Some of the time</button><br><br>
+    <button type="button" class="s4" id="d4" onclick="incre4('d')">A little of the time</button><br><br>
+    <button type="button" class="s5" id="d5" onclick="incre5('d')">None of the time</button><br>  <br>
+
+    During the past 4 weeks, how much of the time have you been limited in the kind of work or other activities you could do as a result of your physical health…<br><br>
+    <button type="button" class="s1" id="e1" onclick="incre1('e')">All of the time</button><br><br>
+    <button type="button" class="s2" id="e2" onclick="incre2('e')">Most of the time</button><br><br>
+    <button type="button" class="s3" id="e3" onclick="incre3('e')">Some of the time</button><br><br>
+    <button type="button" class="s4" id="e4" onclick="incre4('e')">A little of the time</button><br><br>
+    <button type="button" class="s5" id="d5" onclick="incre5('e')">None of the time</button><br>  <br>
+
+    <button type="button" class="sub" onclick="result()">see result</button>
+    <p id="res"> </p>
+    <p id="samp"> </p>
+</body>
+
