@@ -41,8 +41,8 @@ It is a Psychological quiz, which evaluate the emotional state
 Depending on the result, the user can go through treatment plans later on. 
 
 ## Photos of the Project
-# ![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.44%20PM.jpeg)]
-![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.53%20PM.jpeg)]
-![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.54%20PM.jpeg)]
+# ![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.44%20PM.jpeg)
+![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.53%20PM.jpeg)
+![Github](https://github.com/shamiroxs/concode/blob/main/assets/WhatsApp%20Image%202023-02-04%20at%208.32.54%20PM.jpeg)
 ## Libraries used
 Bootstrap - Version 4.6
