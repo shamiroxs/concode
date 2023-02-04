@@ -1,4 +1,4 @@
-# ![Github](https://github.com/Noel6161131110/CONQUEROR-23-/blob/8746611d94769a1aa96d8a85a25d35edc9a95973/assets/desktop.png)
+# ![Github](https://github.com/shamiroxs/concode/blob/main/assets/vector-mental-health-and-psychology-concept.webp)
 
 
 # Psych
